@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import com.example.composepractice.ui.screens.DayFiveScreen
 import com.example.composepractice.ui.screens.DayFourScreen
 import com.example.composepractice.ui.screens.DayOneScreen
 import com.example.composepractice.ui.screens.DayThreeScreen
@@ -31,10 +32,12 @@ class MainActivity : ComponentActivity() {
 //                    DayThreeScreen(
 //                        modifier = Modifier.padding(innerPadding)
 //                    )
-                      DayFourScreen(
-                          modifier = Modifier.padding(innerPadding)
-
-                      )
+//                      DayFourScreen(
+//                          modifier = Modifier.padding(innerPadding)
+//                      )
+                    DayFiveScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )
 
                 }
             }
